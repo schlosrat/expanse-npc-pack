@@ -233,6 +233,7 @@ The Items included are maily sourced from various fan sites and freely distrubut
 - UNTech TSG-4L
 
 # Credits
-Some of the token included are among the amazing and excellent free tokens graciously provided by Devin Tokens. You can find many more like those here: https://immortalnights.com/tokens/token-usage-rights/
+Extremely awesome free tokens used courtesy of Devin's Tokens (https://immortalnights.com/tokens/token-usage-rights/)
+NOTE: For a small price Devin will customize existing tokens for you, or you can commission a custom token to meet your needs! (https://immortalnights.com/order-a-custom-token/) He's also got some even more awesome premium token sets! (https://immortalnights.com/product-category/sci-fi-3/)
 
-All of the other tokens included in the pack were produced by me using Photoshop to create "coin" token images from character art found on the internet.
+All of the other tokens included in the pack were produced by me using Photoshop to create "coin" token images from computer generated images produced using artbreader.com
