@@ -7,7 +7,7 @@ This compendium pack includes the following AGE System specific compendia to hel
 # Scenes
 The Scenes included incorporate a mix of graphics and art found online with some material created in DungeonDraft. Where appropriate the scenes incorporate walls, doors, windows, etc.
 ## General Scenes
-- Launch Screen scene (General Scene: Includes many ship tokens as examples)
+- Launch Screen 2 scene (General Scene: Includes many NPC tokens as examples)
 ## 532 Herculina
 - Herculina Dock (Art courtesy Ashley McKenzie www.artstation.com/artist/noisecheck)
 ## Calisto
