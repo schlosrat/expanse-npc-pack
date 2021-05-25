@@ -15,6 +15,8 @@ The Scenes included incorporate a mix of graphics and art found online with some
 - Callisto Shipyards (General Scene)
 ## Ceres
 - Ceres Station (Art courtesy of http://www.northfrontstudio.com/)
+## Earth
+- Earth (Art courtesy of Stephan Khoury https://www.artstation.com/artwork/4bo9Oq)
 ## Ganymede
 - OPA Hideout (Battle Map)
 ## Hygeia
@@ -22,7 +24,7 @@ The Scenes included incorporate a mix of graphics and art found online with some
 ## Luna
 - Lovell City (Art courtesy of http://www.northfrontstudio.com/)
 ## Mars
-- TBD
+- Mars (Art courtesy of Stephan Khoury https://www.artstation.com/artwork/4bo9kn)
 ## Prometheus
 - Prometheus Base (Art courtesy of Arthur Yuan https://zcahcy0.artstation.com/)
 ## Ships (Scenes and/or Deck Plans)

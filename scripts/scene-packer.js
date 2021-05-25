@@ -1,5 +1,5 @@
-const adventureName = 'Expanse Pack';
-const moduleName = 'expanse-pack';
+const adventureName = 'Expanse NPC Pack';
+const moduleName = 'expanse-npc-pack';
 
 /**
  * welcomeJournal (if set) will automatically be imported and opened after the first activation of a scene imported from the module compendium.
