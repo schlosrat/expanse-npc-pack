@@ -57,5 +57,4 @@
       allowImportPrompts: true, // Set to false if you don't want the popup
     });
   });
-
 })()
