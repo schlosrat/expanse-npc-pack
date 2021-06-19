@@ -6,7 +6,7 @@
 	"version": "0.1.7",
 	"system": "age-system",
 	"minimumCoreVersion": "0.6.0",
-	"compatibleCoreVersion":"0.8.6",
+	"compatibleCoreVersion":"0.8.7",
 	"url": "https://github.com/schlosrat/expanse-npc-pack",
 	"manifest": "https://raw.githubusercontent.com/schlosrat/expanse-npc-pack/master/module.json",
 	"download": "https://github.com/schlosrat/expanse-npc-pack/archive/refs/tags/0.1.7.zip",
@@ -34,27 +34,6 @@
 	],
 	"packs": [
 		{
-			"name": "armor",
-			"label": "Armor",
-			"path": "packs/armor.db",
-			"entity": "Item",
-			"module": "ExpansePack"
-		},
-		{
-			"name": "explosives",
-			"label": "Explosives",
-			"path": "packs/explosives.db",
-			"entity": "Item",
-			"module": "ExpansePack"
-		},
-		{
-			"name": "melee",
-			"label": "Melee Weapons",
-			"path": "packs/melee.db",
-			"entity": "Item",
-			"module": "ExpansePack"
-		},
-		{
 			"name": "npcs",
 			"label": "NPCs",
 			"path": "packs/npcs.db",
@@ -62,73 +41,10 @@
 			"module": "ExpansePack"
 		},
 		{
-			"name": "pistols",
-			"label": "Pistols",
-			"path": "packs/pistols.db",
-			"entity": "Item",
-			"module": "ExpansePack"
-		},
-		{
-			"name": "rifles",
-			"label": "Rifles",
-			"path": "packs/rifles.db",
-			"entity": "Item",
-			"module": "ExpansePack"
-		},
-		{
 			"name": "scenes",
 			"label": "Scenes",
 			"path": "packs/scenes.db",
 			"entity": "Scene",
-			"module": "ExpansePack"
-		},
-		{
-			"name": "ship-flaws",
-			"label": "Ship Flaws",
-			"path": "packs/ship-flaws.db",
-			"entity": "Item",
-			"module": "ExpansePack"
-		},
-		{
-			"name": "ship-qualities",
-			"label": "Ship Qualities",
-			"path": "packs/ship-qualities.db",
-			"entity": "Item",
-			"module": "ExpansePack"
-		},
-		{
-			"name": "ship-weapons",
-			"label": "Ship Weapons",
-			"path": "packs/ship-weapons.db",
-			"entity": "Item",
-			"module": "ExpansePack"
-		},
-		{
-			"name": "ships",
-			"label": "Ships",
-			"path": "packs/ships.db",
-			"entity": "Actor",
-			"module": "ExpansePack"
-		},
-		{
-			"name": "shotguns",
-			"label": "Shotguns",
-			"path": "packs/shotguns.db",
-			"entity": "Item",
-			"module": "ExpansePack"
-		},
-		{
-			"name": "tools",
-			"label": "Tools",
-			"path": "packs/tools.db",
-			"entity": "Item",
-			"module": "ExpansePack"
-		},
-		{
-			"name": "ship-notes",
-			"label": "Ship Notes",
-			"path": "packs/ship-notes.db",
-			"entity": "JournalEntry",
 			"module": "ExpansePack"
 		},
 		{
