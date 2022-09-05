@@ -1,58 +1,75 @@
 {
-	"name": "expanse-npc-pack",
-	"title": "Expanse NPC Pack",
-	"description": "Shareable Expanse RPG Compendium Pack - NO COPYRIGHT MATERIAL",
-	"author": "schlosrat",
-	"version": "0.1.7",
-	"system": "age-system",
-	"minimumCoreVersion": "0.6.0",
-	"compatibleCoreVersion":"9",
-	"url": "https://github.com/schlosrat/expanse-npc-pack",
-	"manifest": "https://raw.githubusercontent.com/schlosrat/expanse-npc-pack/master/module.json",
-	"download": "https://github.com/schlosrat/expanse-npc-pack/archive/refs/tags/0.1.7.zip",
-	"changelog": "https://github.com/schlosrat/expanse-npc-pack/blob/master/CHANGELOG.md",
-	"readme": "https://github.com/schlosrat/expanse-npc-pack/blob/master/README.md",
-	"scripts": [
-		"scripts/scene-packer.js"
-	],
-	"dependencies": [
-		{
-			"name": "lib-wrapper",
-			"manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
-			"type": "module"
-		},
-		{
-		  "name": "scene-packer",
-		  "manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/scene-packer/master/module.json",
-		  "type": "module"
-		},
-		{
-			"name": "age-system",
-			"manifest": "https://raw.githubusercontent.com/vkdolea/age-system/prep-release/system.json",
-			"type": "system"
-		}
-	],
-	"packs": [
-		{
-			"name": "npcs",
-			"label": "NPCs",
-			"path": "packs/npcs.db",
-			"entity": "Actor",
-			"module": "ExpansePack"
-		},
-		{
-			"name": "scenes",
-			"label": "Scenes",
-			"path": "packs/scenes.db",
-			"entity": "Scene",
-			"module": "ExpansePack"
-		},
-		{
-			"name": "npc-notes",
-			"label": "Generic NPC Notes",
-			"path": "packs/npc-notes.db",
-			"entity": "JournalEntry",
-			"module": "ExpansePack"
-		}
-	]
+  "title": "Expanse NPC Pack",
+  "description": "Shareable Expanse RPG Compendium Pack - NO COPYRIGHT MATERIAL",
+  "version": "0.1.7",
+  "url": "https://github.com/schlosrat/expanse-npc-pack",
+  "manifest": "https://raw.githubusercontent.com/schlosrat/expanse-npc-pack/master/module.json",
+  "download": "https://github.com/schlosrat/expanse-npc-pack/archive/refs/tags/0.1.7.zip",
+  "changelog": "https://github.com/schlosrat/expanse-npc-pack/blob/master/CHANGELOG.md",
+  "readme": "https://github.com/schlosrat/expanse-npc-pack/blob/master/README.md",
+  "scripts": [
+    "scripts/scene-packer.js"
+  ],
+  "packs": [
+    {
+      "name": "npcs",
+      "label": "NPCs",
+      "path": "packs/npcs.db",
+      "type": "Actor",
+      "private": false,
+      "system": "age-system",
+      "flags": {}
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes.db",
+      "type": "Scene",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "npc-notes",
+      "label": "Generic NPC Notes",
+      "path": "packs/npc-notes.db",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "id": "expanse-npc-pack",
+  "authors": [
+    {
+      "name": "schlosrat",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "scene-packer",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/scene-packer/master/module.json",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "age-system",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/vkdolea/age-system/prep-release/system.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "0.6.0",
+    "verified": "9"
+  }
 }
